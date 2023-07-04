@@ -1,12 +1,11 @@
 {
-  "name": "qwittus",
+  "name": "quasar-project",
   "version": "0.0.1",
-  "description": "A different social media with quasar ",
+  "description": "A Quasar Project",
   "productName": "Quasar App",
-  "author": "Ionuț Cipleu ",
+  "author": "ionut-tech <111152241+ionut-tech@users.noreply.github.com>",
   "private": true,
   "scripts": {
-    "lint": "eslint --ext .js,.vue ./",
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
     "build": "quasar build"
@@ -18,12 +17,6 @@
     "vue-router": "^4.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.10.0",
-    "eslint-plugin-vue": "^9.0.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.19.1",
-    "eslint-plugin-n": "^15.0.0",
-    "eslint-plugin-promise": "^6.0.0",
     "@quasar/app-vite": "^1.3.0",
     "autoprefixer": "^10.4.2",
     "postcss": "^8.4.14"

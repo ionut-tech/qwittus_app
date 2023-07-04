@@ -1,6 +1,6 @@
-# Quasar App (qwittus)
+# Quasar App (quasar-project)
 
-A different social media with quasar 
+A Quasar Project
 
 ## Install the dependencies
 ```bash
@@ -13,15 +13,6 @@ npm install
 ```bash
 quasar dev
 ```
-
-
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
 
 
 ### Build the app for production
