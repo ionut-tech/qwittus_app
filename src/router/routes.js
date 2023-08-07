@@ -14,8 +14,44 @@ const routes = [
     {
       path: '/about',
       component: () => import('pages/PageAbout.vue'),
-    name: 'About'
-  }
+      name: 'About'
+  },
+
+  {
+    path: '/roll',
+    component: () => import('pages/Roller.vue'),
+    name: 'Roll'
+},
+
+{
+  path: '/pref',
+  component: () => import('pages/Preferences.vue'),
+  name: 'Preferences'
+},
+
+{
+  path: '/more',
+  component: () => import('pages/More.vue'),
+  name: 'More'
+},
+
+{
+  path: '/notif',
+  component: () => import('pages/Notifications.vue'),
+  name: 'Notifications'
+},
+
+{
+  path: '/news',
+  component: () => import('pages/News.vue'),
+  name: 'News'
+},
+
+{
+  path: '/games',
+  component: () => import('pages/Games.vue'),
+  name: 'Games'
+}
     ]
   },
   // Always leave this as last one,
