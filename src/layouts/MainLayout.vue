@@ -51,6 +51,102 @@
       </q-item>
 
       <q-item
+      to="/notif"
+      clickable
+      v-ripple
+      exact
+      >
+        <q-item-section avatar>
+          <q-icon
+          name="notifications"
+          size="md"
+          />
+
+        </q-item-section>
+        <q-item-section class="text-h6 text-weight-bold">Notifications</q-item-section>
+      </q-item>
+
+      <q-item
+      to="/news"
+      clickable
+      v-ripple
+      exact
+      >
+        <q-item-section avatar>
+          <q-icon
+          name="feed"
+          size="md"
+          />
+
+        </q-item-section>
+        <q-item-section class="text-h6 text-weight-bold">News</q-item-section>
+      </q-item>
+
+      <q-item
+      to="/games"
+      clickable
+      v-ripple
+      exact
+      >
+        <q-item-section avatar>
+          <q-icon
+          name="extension"
+          size="md"
+          />
+
+        </q-item-section>
+        <q-item-section class="text-h6 text-weight-bold">Games</q-item-section>
+      </q-item>
+
+      <q-item
+      to="/roll"
+      clickable
+      v-ripple
+      exact
+      >
+        <q-item-section avatar>
+          <q-icon
+          name="sync"
+          size="md"
+          />
+
+        </q-item-section>
+        <q-item-section class="text-h6 text-weight-bold">Roll</q-item-section>
+      </q-item>
+
+      <q-item
+      to="/pref"
+      clickable
+      v-ripple
+      exact
+      >
+        <q-item-section avatar>
+          <q-icon
+          name="style"
+          size="md"
+          />
+
+        </q-item-section>
+        <q-item-section class="text-h6 text-weight-bold">Preferences</q-item-section>
+      </q-item>
+
+      <q-item
+      to="/more"
+      clickable
+      v-ripple
+      exact
+      >
+        <q-item-section avatar>
+          <q-icon
+          name="more"
+          size="md"
+          />
+
+        </q-item-section>
+        <q-item-section class="text-h6 text-weight-bold">More</q-item-section>
+      </q-item>
+
+      <q-item
       to="/about"
       clickable
       v-ripple
