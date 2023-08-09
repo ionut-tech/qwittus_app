@@ -12,6 +12,26 @@
             counter
             autogrow
           >
+          <template v-slot:append>
+            <q-btn
+          round
+          dense
+          flat
+          icon="map" />
+
+            <q-btn
+          round
+          dense
+          flat
+          icon="mood" />
+
+          <q-btn
+          round
+          dense
+          flat
+          icon="photo" />
+
+        </template>
             <template v-slot:before>
               <q-avatar size="xl">
                 <img src="https://www.citypng.com/public/uploads/preview/hd-profile-user-round-green-icon-symbol-transparent-png-11639594320ayr6vyoidq.png">
@@ -52,7 +72,7 @@
           >
             <q-item-section avatar top>
               <q-avatar size="xl">
-                <img src="https://s.gravatar.com/avatar/ce7f3697e231df38b3ca6065848520da?s=80">
+                <img src="https://www.citypng.com/public/uploads/preview/hd-profile-user-round-green-icon-symbol-transparent-png-11639594320ayr6vyoidq.png">
               </q-avatar>
             </q-item-section>
 
