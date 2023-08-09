@@ -13,8 +13,15 @@
         size="sm"
         color="green"
         />
-        </q-toolbar-title>
 
+          <q-avatar>
+            <img
+            src="https://cdn.quasar.dev/img/avatar5.jpg"
+            fixed-top-right-center
+            >
+          </q-avatar>
+
+        </q-toolbar-title>
       </q-toolbar>
     </q-header>
 
@@ -40,6 +47,7 @@
       v-ripple
       exact
       >
+
         <q-item-section avatar>
           <q-icon
           name="cottage"
@@ -49,7 +57,6 @@
         </q-item-section>
         <q-item-section class="text-h6 text-weight-bold">Home</q-item-section>
       </q-item>
-
       <q-item
       to="/notif"
       clickable
