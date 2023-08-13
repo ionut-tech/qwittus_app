@@ -1,27 +1,53 @@
 <template>
   <q-layout view="hHh lpR fFf">
-
     <q-header bordered class="bg-white text-green">
       <q-toolbar>
-        <q-btn dense flat round icon="menu" @click="toggleLeftDrawer" />
 
         <q-toolbar-title class="text-weight-bold">
           <span class="gt-sm">{{ $route.name }}</span>
           <q-icon
-      class="header-icon q-pa-md lt-md"
+        class="header-icon q-pa-md lt-md"
         name="fas fa-dove"
         size="sm"
         color="green"
-        />
+            />
 
-          <q-avatar>
+        </q-toolbar-title>
+        <q-btn-dropdown
+          split
+          to="/start/pick-quasar-flavour"
+          color="primary"
+          rounded
+          label="Log Out"
+            >
+      <q-list>
+        <q-item clickable v-close-popup>
+          <q-item-section>
+            <q-item-label>Edit Profile</q-item-label>
+          </q-item-section>
+        </q-item>
+
+        <q-item clickable v-close-popup>
+          <q-item-section>
+            <q-item-label>Switch Account</q-item-label>
+          </q-item-section>
+        </q-item>
+
+        <q-item clickable v-close-popup>
+          <q-item-section>
+            <q-item-label>Send Feedback</q-item-label>
+          </q-item-section>
+        </q-item>
+      </q-list>
+    </q-btn-dropdown>
+        <q-avatar>
+
             <img
-            src="https://cdn.quasar.dev/img/avatar5.jpg"
+            @click= src/pages/Preferences.vue
+            src="https://www.citypng.com/public/uploads/preview/hd-profile-user-round-green-icon-symbol-transparent-png-11639594320ayr6vyoidq.png"
             fixed-top-right-center
             >
           </q-avatar>
-
-        </q-toolbar-title>
       </q-toolbar>
     </q-header>
 
