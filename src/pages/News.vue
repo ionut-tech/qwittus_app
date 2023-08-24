@@ -7,7 +7,7 @@
       <div class="col-6">
         <q-img src="https://t4.ftcdn.net/jpg/03/32/75/39/360_F_332753934_tBacXEgxnVplFBRyKbCif49jh0Wz89ns.jpg">
           <div class="absolute-full text-subtitle2 flex flex-center">
-            Coocking
+            Food
           </div>
         </q-img>
       </div>
