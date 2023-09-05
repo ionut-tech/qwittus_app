@@ -15,19 +15,25 @@
         </q-toolbar-title>
         <q-btn-dropdown
           split
-          to="/start/pick-quasar-flavour"
+          to="/pages/LogOut.vue"
           color="primary"
           rounded
           label="Log Out"
             >
       <q-list>
-        <q-item clickable v-close-popup>
+        <q-item
+        clickable
+        v-close-popup>
+
           <q-item-section>
             <q-item-label>Edit Profile</q-item-label>
           </q-item-section>
         </q-item>
 
-        <q-item clickable v-close-popup>
+        <q-item
+        clickable
+        v-close-popup>
+
           <q-item-section>
             <q-item-label>Switch Account</q-item-label>
           </q-item-section>
@@ -41,7 +47,6 @@
       </q-list>
     </q-btn-dropdown>
         <q-avatar>
-
             <img
             @click= src/pages/Preferences.vue
             src="https://www.citypng.com/public/uploads/preview/hd-profile-user-round-green-icon-symbol-transparent-png-11639594320ayr6vyoidq.png"
@@ -236,7 +241,7 @@
       <q-item q-pa-md>
         <q-item-section>
           <q-item-label overline
-          class="text-grey">Education</q-item-label>
+          class="text-grey">Cars</q-item-label>
           <q-item-label
           class="text-weight-bold">Something new!</q-item-label>
           <q-item-label caption>Secondary line text. Lorem ipsum dolor sit amet, consectetur adipiscit elit.</q-item-label>
@@ -250,7 +255,7 @@
       <q-item q-pa-md>
         <q-item-section>
           <q-item-label overline
-          class="text-grey">Education</q-item-label>
+          class="text-grey">Food</q-item-label>
           <q-item-label
           class="text-weight-bold">Something new!</q-item-label>
           <q-item-label caption>Secondary line text. Lorem ipsum dolor sit amet, consectetur adipiscit elit.</q-item-label>
