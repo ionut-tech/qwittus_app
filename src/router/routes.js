@@ -1,3 +1,4 @@
+import { Logout } from '@mui/icons-material'
 
 const routes = [
   {
@@ -52,13 +53,14 @@ const routes = [
   component: () => import('pages/Games.vue'),
   name: 'Games'
 }
+
     ]
   },
   // Always leave this as last one,
   // but you can also remove it
   {
     path: '/:catchAll(.*)*',
-    component: () => import('pages/ErrorNotFound.vue')
+    component: () => import('src/pages/LogOut.vue')
   }
 ]
 
