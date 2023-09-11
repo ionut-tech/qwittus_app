@@ -1,13 +1,33 @@
 <template>
-  <q-page class="q-pa-lg">
-    <h4 class="q-mt-none q-mb-md text-weight-bold">....</h4>
-    <div class="text-body1">
-    </div>
-  </q-page>
+  <div class="q-pa-md">
+    <q-option-group
+      :options="options"
+      type="toggle"
+      v-model="group"
+    />
+  </div>
 </template>
 
 <script>
+import { ref } from 'vue'
+
 export default {
-  name: 'PageAbout'
+  setup () {
+    return {
+      group: ref([]),
+
+      options: [
+        { label: 'Dark mode', value: 'dark' },
+        { label: 'Content options', value: 'friend', color: 'red' },
+        { label: 'Reset profile picture', value: 'upload', color: 'green' },
+        { label: 'Fast log in', value: 'auth', color: 'green' },
+        { label: 'Hide comments', value: 'show', color: 'green' },
+        { label: 'Hide likes', value: 'hide', color: 'green' },
+        { label: 'Remove ads', value: 'remove', color: 'green' },
+        { label: 'Lite mode', value: 'lite', color: 'green' },
+        { label: 'Remove search bar', value: 'rmv', color: 'green' }
+      ]
+    }
+  }
 }
 </script>
